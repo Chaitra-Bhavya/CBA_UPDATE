@@ -1,12 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
+int main()
+{
+    double n1=5, n2=10, n3=15;
 
-int main() {
-   char password[128], c;
-   int index = 0;
- 
-   password="Abhagit";
-   /* 13 is ASCII value of Enter key */
-   printf("\nPassword String = %s", password);
- 
-   return 0;
+    if( n1>=n2 && n1>=n3 )
+        printf("%.2f is the largest number.", n1);
+
+    if( n2>=n1 && n2>=n3 )
+        printf("%.2f is the largest number.", n2);
+
+    if( n3>=n1 && n3>=n2 )
+        printf("%.2f is the largest number.", n3);
+
+    return 0;
 }
