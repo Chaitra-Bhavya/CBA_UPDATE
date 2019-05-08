@@ -4,9 +4,9 @@ compiler:
  - clang
  - gcc
 script:
-	- gcc -o bhavya bhavya.c
-	- ./bhavya
-	- gcc -o akshaya akshaya.c
-	- ./akshaya
-	- gcc -o arun1 arun1.c
-	- ./arun1
+  - gcc -o bhavya bhavya.c
+  - ./bhavya
+  - gcc -o akshaya akshaya.c
+  - ./akshaya
+  - gcc -o arun1 arun1.c
+  - ./arun1
