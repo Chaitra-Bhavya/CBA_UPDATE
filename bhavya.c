@@ -16,11 +16,11 @@ int main()
     }
     if(originalint==var)
     {
-        printf("%d is a palindrome",var);
+        printf(" palindrome");
     }
     else
     {
-        printf("%d is not a palindrome",var);
+        printf("not a palindrome");
     }
     return 0;
 }
