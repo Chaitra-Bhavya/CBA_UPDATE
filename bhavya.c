@@ -3,8 +3,7 @@ int main()
 {
     int n,rem,originalint=0;
     int var=0;
-    printf("enter the n: ");
-    scanf("%d",&n);
+    n=12321;
 
     originalint=n;
 
