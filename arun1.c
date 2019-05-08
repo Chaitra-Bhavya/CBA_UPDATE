@@ -5,7 +5,7 @@ int main() {
    char password[128], c;
    int index = 0;
  
-   printf("Enter Password : ");
+   password="Abhagit";
    /* 13 is ASCII value of Enter key */
    while((c = getch()) != 13){
        if(index < 0)
