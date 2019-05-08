@@ -1,16 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int n1=5, n2=10, n3=15;
+    int i, j;
+    char input, alphabet = 'A';
 
-    if( n1>=n2 && n1>=n3 )
-        printf("%d is the largest number.", n1);
+    printf("Enter the uppercase character you want to print in last row: ");
+    scanf("%c",&input);
 
-    if( n2>=n1 && n2>=n3 )
-        printf("%d is the largest number.", n2);
+    for(i=1; i <= (input-'A'+1); ++i)
+    {
+        for(j=1;j<=i;++j)
+        {
+            printf("%c", alphabet);
+        }
+        ++alphabet;
 
-    if( n3>=n1 && n3>=n2 )
-        printf("%d is the largest number.", n3);
-
+        printf("\n");
+    }
     return 0;
 }
